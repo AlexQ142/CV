@@ -60,13 +60,16 @@ a:hover {
 }
 
 .middle-container {
-  margin: 100px;
+  background-color: #D4D3EB;
+  padding-top: 100px;
+  padding-bottom: 60px;
+  margin: 0;
 }
 
 .bottom-container {
   background-color: #544179;
   padding-top: 20px;
-  padding-bottom: 20px;
+  padding-bottom: 30px;
 }
 
 .credit-info {
@@ -85,6 +88,16 @@ a:hover {
   position: absolute;
   right: 300px;
   top: 40px;
+}
+
+.right-trees {
+  position: absolute;
+  right: 300px;
+}
+
+.left-trees {
+  position: absolute;
+  left: 300px;
 }
 
 .skill-row {
@@ -114,7 +127,7 @@ a:hover {
 .profile {
   width: 50%;
   line-height: 2;
-  margin: 100px auto 100px auto;
+  margin: 0 auto 0 auto;
 }
 
 .profile-img {
